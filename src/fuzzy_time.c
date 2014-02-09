@@ -91,15 +91,15 @@ static void do_init(void) {
 
   window_set_background_color(s_data.window, GColorBlack);
   GFont font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_TEXTFONT_28));
-  GFont boldfont=fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_BOLDFONT_30));
+  GFont boldfont=fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_BOLDFONT_32));
   GFont datumfont = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_SMALLFONT_14));
   Layer *root_layer = window_get_root_layer(s_data.window);
   GRect frame = layer_get_frame(root_layer);
 
-  s_data.label = text_layer_create(GRect(0, 0, frame.size.w, 30));
-  s_data.label2 = text_layer_create(GRect(0,30,frame.size.w,60));
-  s_data.label3 = text_layer_create(GRect(0,60,frame.size.w,90));
-  s_data.label4 = text_layer_create(GRect(0,90,frame.size.w,125));
+  s_data.label = text_layer_create(GRect(0, 0, frame.size.w, 35));
+  s_data.label2 = text_layer_create(GRect(0,35,frame.size.w,70));
+  s_data.label3 = text_layer_create(GRect(0,70,frame.size.w,105));
+  s_data.label4 = text_layer_create(GRect(0,105,frame.size.w,140));
   s_data.datum = text_layer_create(GRect(0,frame.size.h-30,frame.size.w,frame.size.h-15));
   s_data.conbatt = text_layer_create(GRect(0,frame.size.h-15,frame.size.w,frame.size.h));
   s_data.conn = text_layer_create(GRect(0,frame.size.h-15,frame.size.w,frame.size.h));

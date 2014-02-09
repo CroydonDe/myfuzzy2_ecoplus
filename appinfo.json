@@ -16,7 +16,7 @@
         "media": [
             {
                 "type": "font",
-                "name": "FONT_BOLDFONT_30",
+                "name": "FONT_BOLDFONT_32",
                 "file": "fonts/segoescb.ttf"
             },
             {
