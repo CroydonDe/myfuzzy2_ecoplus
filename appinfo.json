@@ -1,0 +1,40 @@
+{
+    "versionLabel": "1.0.0",
+    "uuid": "9c137cb9-b7e6-488e-b6bc-4dd0f7ff5dc0",
+    "appKeys": {},
+    "longName": "Fuzzy Zeit",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Fuzzy Zeit",
+    "companyName": "Felix Rotthowe",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "font",
+                "name": "FONT_BOLDFONT_30",
+                "file": "fonts/segoescb.ttf"
+            },
+            {
+                "type": "font",
+                "name": "FONT_TEXTFONT_28",
+                "file": "fonts/segoesc.ttf"
+            },
+            {
+                "type": "font",
+                "name": "FONT_SMALLFONT_14",
+                "file": "fonts/opensansl.ttf"
+            },
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_MENU_ICON",
+                "file": "images/menu_icon_fuzzy_watch.png"
+            }
+        ]
+    }
+}
