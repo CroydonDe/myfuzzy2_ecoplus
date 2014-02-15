@@ -1,19 +1,54 @@
 {
     "versionLabel": "1.0.0",
-    "uuid": "9c137cb9-b7e6-488e-b6bc-4dd0f7ff5dc0",
+    "uuid": "acc37cb9-a7e6-487e-f6bc-4dd0f7ff5dca",
     "appKeys": {},
-    "longName": "Fuzzy Zeit",
+    "longName": "Fuzzy Zeit 2 Eco Plus Inverted",
     "versionCode": 1,
     "capabilities": [
         ""
     ],
-    "shortName": "Fuzzy Zeit",
-    "companyName": "Felix Rotthowe",
+    "shortName": "Fuzzy2EcoInverted",
+    "companyName": "Andreas Vaeth",
     "watchapp": {
         "watchface": true
     },
     "resources": {
         "media": [
+            {
+                "type": "png",
+                "name": "bt_conn",
+                "file": "images/bluetooth.png"
+            },
+            {
+                "type": "png",
+                "name": "ICON_BATT_LADE",
+                "file": "images/batt_lade.png"
+            },
+            {
+                "type": "png",
+                "name": "batt_100",
+                "file": "images/batt_100.png"
+            },
+            {
+                "type": "png",
+                "name": "batt_80",
+                "file": "images/batt_80.png"
+            },
+            {
+                "type": "png",
+                "name": "batt_60",
+                "file": "images/batt_60.png"
+            },
+            {
+                "type": "png",
+                "name": "batt_40",
+                "file": "images/batt_40.png"
+            },
+            {
+                "type": "png",
+                "name": "batt_20",
+                "file": "images/batt_20.png"
+            },
             {
                 "type": "font",
                 "name": "FONT_BOLDFONT_32",
@@ -21,7 +56,7 @@
             },
             {
                 "type": "font",
-                "name": "FONT_TEXTFONT_28",
+                "name": "FONT_TEXTFONT_24",
                 "file": "fonts/segoesc.ttf"
             },
             {
